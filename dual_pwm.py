@@ -71,4 +71,3 @@ if __name__ == '__main__':
             p2.stop()
             GPIO.cleanup()
             sys.exit(1)
-    GPIO.cleanup()
