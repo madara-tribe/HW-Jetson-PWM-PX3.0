@@ -10,5 +10,5 @@ usermod -a -G gpio <ユーザー名>
 
 # add udev rule
 cp lib/python/Jetson/GPIO/99-gpio.rules /etc/udev/rules.d/
-udevadm control --reload-rules && sudo udevadm trigger
+udevadm control --reload-rules && udevadm trigger
 reboot
