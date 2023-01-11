@@ -4,8 +4,6 @@
 
 Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 
-<b>Jetson Nano and 2 Serbo mortor</b>
-
 ```sh
 - JetPack > 4.6
 - python3 3.6.9
@@ -13,6 +11,9 @@ Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 - Servo mortor :  TowerPro SG-90, 
 ```
 
+<b>Jetson Nano and 2 Serbo mortor</b>
+
+![ServoPWM_Scheme](https://user-images.githubusercontent.com/48679574/211758179-abc3911f-4c45-4318-9de4-2c95f379bbd9.jpg)
 
 
 # Setup
