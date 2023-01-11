@@ -18,8 +18,8 @@ Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 # Setup
 
 ```zsh
-# install GPIO
-sudo bash setup/setpwm.sh
+# rewrite user name and install GPIO
+sudo bash setup/install_gpio.sh
 
 # setup pins for servo PWM
 sudo bash setup/setpwm.sh
