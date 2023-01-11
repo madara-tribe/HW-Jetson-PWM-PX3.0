@@ -13,7 +13,7 @@ Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 
 <b>Jetson Nano and 2 Serbo mortor</b>
 
-![ServoPWM_Scheme](https://user-images.githubusercontent.com/48679574/211758179-abc3911f-4c45-4318-9de4-2c95f379bbd9.jpg)
+<img src="https://user-images.githubusercontent.com/48679574/211758179-abc3911f-4c45-4318-9de4-2c95f379bbd9.jpg" width="500" height="400"/>
 
 
 # Setup
