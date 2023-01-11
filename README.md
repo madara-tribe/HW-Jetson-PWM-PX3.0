@@ -1,4 +1,4 @@
-# Jetson PWM as HW Prototype
+# Jetson Nano PWM as HW Prototype
 
 # abstract
 
