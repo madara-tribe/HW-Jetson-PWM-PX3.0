@@ -7,11 +7,11 @@ class AngleFormula(Enum):
     HightMax = 600
 
 def AngleX(x):
-    angle = x / (WidthMax/AngleFormula.ServoMax.value)
+    angle = x / (AngleFormula.WidthMax.value/AngleFormula.ServoMax.value)
     return angle 
 
 def AngleY(y):
-    angle = y / (HightMax/AngleFormula.ServoMax.value)
+    angle = y / (AngleFormula.HightMax.value/AngleFormula.ServoMax.value)
     return angle
 
 def Angle2Duty(inputs, width=True):

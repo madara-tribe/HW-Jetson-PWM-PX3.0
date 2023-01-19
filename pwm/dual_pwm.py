@@ -4,7 +4,7 @@ import Jetson.GPIO as GPIO
 import time
 import threading
 import sys
-from pwm.formura import Angle2Duty
+from formura import Angle2Duty
 
 OUTPUT_PIN1 = 32 
 OUTPUT_PIN2 = 33
@@ -27,8 +27,8 @@ def pw_loop(pw):
         print("width dc {}".format(dc1))
         time.sleep(t)
         dc2 = Angle2Duty(500)
-        pw.start(sita2)
-        print("width dc {}".format(sita2))
+        pw.start(dc2)
+        print("width dc {}".format(dc2))
         time.sleep(t)
         dc3 = Angle2Duty(410)
         pw.start(dc3)
@@ -69,7 +69,7 @@ if __name__ == '__main__':
     th2.start()
     while True:
         c +=1
-        if c==500:
+        if c==3000:
             flag =False
             th1.join()
             th2.join()
