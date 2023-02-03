@@ -29,3 +29,4 @@ sudo bash setup/setpwm.sh
 # References
 - [jetson-gpio](https://github.com/NVIDIA/jetson-gpio/tree/master/samples)
 - [Jetson Nano の 2 つのハードウェア PWM を使用してみた](https://qiita.com/kitazaki/items/2c9deb912f11106d1215)
+- [jetson_nano_grove](https://github.com/kitazaki/jetson_nano_grove)
