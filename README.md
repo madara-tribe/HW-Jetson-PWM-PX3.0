@@ -19,7 +19,7 @@ Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 
 It can control multi-servo motor (maximum is 16). and script don't need multithread process.
 
-<img src="https://user-images.githubusercontent.com/48679574/216533582-243f2e2c-19d7-4bae-bfee-6245f2e5709d.jpg" width="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/48679574/216533582-243f2e2c-19d7-4bae-bfee-6245f2e5709d.jpg" width="700" height="400"/>
 
 
 # Setup
