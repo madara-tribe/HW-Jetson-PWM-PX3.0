@@ -15,6 +15,11 @@ Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 
 <img src="https://user-images.githubusercontent.com/48679574/211758179-abc3911f-4c45-4318-9de4-2c95f379bbd9.jpg" width="650" height="400"/>
 
+# Adafruit-PCA9685 (PWM controller)
+
+It can control multi-servo motor (maximum is 16). and script don't need multithread process.
+
+
 
 # Setup
 
@@ -24,7 +29,14 @@ sudo bash setup/install_gpio.sh
 
 # setup pins for servo PWM
 sudo bash setup/setpwm.sh
+
+# Adafruit-PCA9685
+pip3 install Adafruit_PCA9685
+# i2cdetect -y -r 1
+# rewrite I2C.py file
+vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 ```
+
 
 # References
 - [jetson-gpio](https://github.com/NVIDIA/jetson-gpio/tree/master/samples)
