@@ -1,5 +1,4 @@
 # Jetson Nano PWM as HW Prototype
-
 # abstract
 
 Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
