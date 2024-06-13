@@ -38,9 +38,9 @@ vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 # Similater
 
 ## x-axis
-<b>Simulation cycle</b> : <b>reset to default point => move from x-min to x-max => reset to default point</b>
+<b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from x-min to x-max</b> => <b>reset to default point</b>
 ## y-axis 
-<b>Simulation cycle</b> : <b>reset to default point => move from y-min to y-max => reset to default point</b>
+<b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from y-min to y-max</b> => <b>reset to default point</b>
 # References
 - [jetson-gpio](https://github.com/NVIDIA/jetson-gpio/tree/master/samples)
 - [Jetson Nano の 2 つのハードウェア PWM を使用してみた](https://qiita.com/kitazaki/items/2c9deb912f11106d1215)
