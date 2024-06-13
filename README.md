@@ -12,13 +12,13 @@ Jetson's PWM(Pulse Width Modulation) to move 2 Servomortor with multi-thread.
 
 <b>Jetson Nano and 2 Serbo mortor</b>
 
-<img src="https://user-images.githubusercontent.com/48679574/211758179-abc3911f-4c45-4318-9de4-2c95f379bbd9.jpg" width="450" height="200"/>
+<img src="https://user-images.githubusercontent.com/48679574/211758179-abc3911f-4c45-4318-9de4-2c95f379bbd9.jpg" width="350" height="200"/>
 
 # Adafruit-PCA9685 (PWM controller)
 
 It can control multi-servo motor (maximum is 16). and script don't need multithread process.
 
-<img src="https://user-images.githubusercontent.com/48679574/216533582-243f2e2c-19d7-4bae-bfee-6245f2e5709d.jpg" width="500" height="300"/>
+<img src="https://user-images.githubusercontent.com/48679574/216533582-243f2e2c-19d7-4bae-bfee-6245f2e5709d.jpg" width="350" height="200"/>
 
 
 # Setup
