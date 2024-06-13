@@ -41,6 +41,7 @@ vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 <b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from x-min to x-max</b> => <b>reset to default point</b>
 
 <b>YOUTUBE MOVIE LINK</b>
+
 [![PX3.1 X-AXIS](https://github.com/madara-tribe/HW-Jetson-PWM-PX3.1/assets/48679574/011ac097-25a8-454a-840d-e22052cb17a1)](https://youtube.com/shorts/qoQlibyCR1c?si=ihqIfNyfjMD7pwjR)
 
 
@@ -48,6 +49,7 @@ vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 <b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from y-min to y-max</b> => <b>reset to default point</b>
 
 <b>YOUTUBE MOVIE LINK</b>
+
 [![PX3.1 Y-AXIS](https://github.com/madara-tribe/HW-Jetson-PWM-PX3.1/assets/48679574/3785e794-45bc-49a2-9b1b-ca8ba514d7c6)](https://youtu.be/EXGpjnlBxCU?si=efqPf6jmlTXRQoDE)
 
 
