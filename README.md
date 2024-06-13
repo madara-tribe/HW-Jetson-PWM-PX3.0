@@ -42,7 +42,7 @@ vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 
 [![PX3.1 X-AXIS](https://user-images.githubusercontent.com/48679574/216533582-243f2e2c-19d7-4bae-bfee-6245f2e5709d.jpg)](https://youtube.com/shorts/qoQlibyCR1c?si=ihqIfNyfjMD7pwjR)
 
-<img width="1282" alt="サムネイル画像" src="">
+
 ## y-axis 
 <b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from y-min to y-max</b> => <b>reset to default point</b>
 # References
