@@ -3,6 +3,7 @@ from multiprocessing import Process, Queue
 
 def get_parser():
     parser = argparse.ArgumentParser()
+    parser.add_argument('-a', '--axis', type=str, default='x', help='specified axis [x] or [y]')
     parser.add_argument('--x_max', type=int, default=90, help='x angle max')
     parser.add_argument('--x_min', type=int, default=40, help='x angle min')
     parser.add_argument('--y_max', type=int, default=180, help='y angle max')
@@ -16,12 +17,12 @@ def get_parser():
     
 def software_threads(q):
     opt = get_parser()
-    from software_thread import sw_thread
+    from Adafruit_PCA9685_.software_thread import sw_thread
     sw_thread(q, opt=opt)
     
 def hardware_threads(q):
     opt = get_parser()
-    from hardware_thread import hw_thread
+    from Adafruit_PCA9685_.hardware_thread import hw_thread
     hw_thread(q, opt=opt)
     
 if __name__ == '__main__':

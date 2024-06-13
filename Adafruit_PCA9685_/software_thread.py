@@ -15,18 +15,23 @@ def yaxis_calibrate(angle):
     
     
 def sw_thread(q:Queue, opt):
+    axis = opt.axis
     x_max = opt.x_max
     x_min = opt.x_min
     y_min = opt.y_min
     y_max = opt.y_max
-    print("x calibrating")
-    for x in range(x_min, x_max):
-        xduty = xaxis_calibrate(x)
-        time.sleep(opt.timer)
-        q.put(["x", xduty])
+    time.sleep(5)
+    if axis=='x':
+        print("x calibrating")
+        for x in range(x_min, x_max):
+            xduty = xaxis_calibrate(x)
+            q.put(["x", xduty, x])
+            time.sleep(opt.timer)
         
-    print("y calibrating")
-    for y in range(y_min, y_max):
-        yduty = yaxis_calibrate(y)
-        time.sleep(opt.timer)
-        q.put(["y", yduty])
+    elif axis=='y':
+        print("y calibrating")
+        for y in range(y_min, y_max):
+            yduty = yaxis_calibrate(y)
+            q.put(["y", yduty, y])
+            time.sleep(opt.timer)
+

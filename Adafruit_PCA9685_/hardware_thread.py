@@ -23,23 +23,32 @@ def hw_thread(q:Queue, opt):
     pwm = Adafruit_PCA9685.PCA9685()
     # Set frequency to 60hz, good for servos.
     pwm.set_pwm_freq(50)
-    
-    stack= []
-    while True:
-        duty = q.get()
-        axis, duty = duty
-        pwm.set_pwm(xaxis_pin, 0, duty)
-        time.sleep(opt.timer)
-        stack.append(duty)
-        print('axis is {}'.format(axis), 'min is {0}, max is {1}'.format(int(min(stack)), int(max(stack))))
-     
-    time.sleep(1)
     duty = reset_x(angle=opt.x_defalut)
     pwm.set_pwm(xaxis_pin, 0, duty)
-    time.sleep(1)
+    time.sleep(0.5)
     duty = reset_y(angle=opt.y_defalut)
     pwm.set_pwm(yaxis_pin, 0, duty)
-    time.sleep(1)
+    time.sleep(0.5)
+    stack = []
+    while True:
+        duty = q.get()
+        axis, duty, angle = duty
+        stack.append(duty)
+        print('axis is {}'.format(axis), 'min is {0}, max is {1}'.format(int(min(stack)), int(max(stack))))
+        if axis=='x':
+            pwm.set_pwm(xaxis_pin, 0, duty)
+            if angle==int(opt.x_max-1):
+                duty = reset_x(angle=opt.x_defalut)
+                pwm.set_pwm(xaxis_pin, 0, duty)
+                time.sleep(1)
+                break
+        elif axis=='y':
+            pwm.set_pwm(yaxis_pin, 0, duty)
+            if angle==int(opt.y_max-1):
+                duty = reset_y(angle=opt.y_defalut)
+                pwm.set_pwm(yaxis_pin, 0, duty)
+                time.sleep(1)
+                break
     sys.exit()
 
 if __name__ == "__main__":
