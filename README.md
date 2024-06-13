@@ -41,14 +41,17 @@ vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 <b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from x-min to x-max</b> => <b>reset to default point</b>
 
 <b>YOUTUBE MOVIE LINK</b>
-[![PX3.1 X-AXIS](https://github.com/madara-tribe/HW-Jetson-PWM-PX3.1/assets/48679574/ddfe0d9c-a474-452b-b786-fee2855ca3e1)](https://youtube.com/shorts/qoQlibyCR1c?si=ihqIfNyfjMD7pwjR)
+[![PX3.1 X-AXIS](https://github.com/madara-tribe/HW-Jetson-PWM-PX3.1/assets/48679574/011ac097-25a8-454a-840d-e22052cb17a1)](https://youtube.com/shorts/qoQlibyCR1c?si=ihqIfNyfjMD7pwjR)
 
 
 ## y-axis 
 <b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from y-min to y-max</b> => <b>reset to default point</b>
 
 <b>YOUTUBE MOVIE LINK</b>
-[![PX3.1 Y-AXIS](https://github.com/madara-tribe/HW-Jetson-PWM-PX3.1/assets/48679574/ddfe0d9c-a474-452b-b786-fee2855ca3e1)](https://youtu.be/EXGpjnlBxCU?si=efqPf6jmlTXRQoDE)
+[![PX3.1 Y-AXIS](https://github.com/madara-tribe/HW-Jetson-PWM-PX3.1/assets/48679574/3785e794-45bc-49a2-9b1b-ca8ba514d7c6)](https://youtu.be/EXGpjnlBxCU?si=efqPf6jmlTXRQoDE)
+
+
+
 # References
 - [jetson-gpio](https://github.com/NVIDIA/jetson-gpio/tree/master/samples)
 - [Jetson Nano の 2 つのハードウェア PWM を使用してみた](https://qiita.com/kitazaki/items/2c9deb912f11106d1215)
