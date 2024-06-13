@@ -39,7 +39,7 @@ vi ~/.local/lib/python3.6/site-packages/Adafruit_GPIO/I2C.py
 
 ## x-axis
 <b>Simulation cycle</b> : <b>reset to default point</b> => <b>move from x-min to x-max</b> => <b>reset to default point</b>
-[!['PX3.1']]('https://youtube.com/shorts/qoQlibyCR1c?feature=share')
+[PX3.1-Xaxis]('https://youtube.com/shorts/qoQlibyCR1c?feature=share')
 
 
 <img width="1282" alt="サムネイル画像" src="">
